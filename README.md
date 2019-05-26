@@ -1,6 +1,6 @@
 # Laravel wrapper for your wordpress site
 
-This package allows you to get articles from your wordpress blog without interacting directly the wordpress rest api and guzzle.
+This package allows you to get articles from your wordpress blog without interacting directly with the wordpress rest api and guzzle.
 
 ## Available methods
 
