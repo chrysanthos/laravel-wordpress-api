@@ -7,7 +7,7 @@ class LaravelWordpressApiServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/wordpress-api.php' => base_path('config/wordpress-api.php'),
+            __DIR__.'/config/wordpress-api.php' => config_path('wordpress-api.php'),
         ], 'config');
     }
 
