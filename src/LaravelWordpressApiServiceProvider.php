@@ -1,4 +1,6 @@
-<?php namespace Chrysanthos\LaravelWordpressApi;
+<?php
+
+namespace Chrysanthos\LaravelWordpressApi;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -17,6 +19,5 @@ class LaravelWordpressApiServiceProvider extends ServiceProvider
         $this->app->bind('laravel-wordpress-api', function () {
             return new WpApi(config('wordpress-api.endpoint'));
         });
-
     }
 }
