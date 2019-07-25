@@ -1,4 +1,6 @@
-<?php namespace Chrysanthos\LaravelWordpressApi\Facades;
+<?php
+
+namespace Chrysanthos\LaravelWordpressApi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'endpoint' => 'https://yourdomain.com/wp-json/wp/v2/'
+    'endpoint' => 'https://yourdomain.com/wp-json/wp/v2/',
 ];
