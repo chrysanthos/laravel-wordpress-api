@@ -6,7 +6,9 @@
     "minimum-stability": "stable",
     "authors": [
         {
-            "name": "Chrysanthos Prodromou"
+            "name": "Chrysanthos Prodromou",
+            "email": "me@chrysanthos.xyz",
+            "role": "Developer"
         }
     ],
     "require": {
