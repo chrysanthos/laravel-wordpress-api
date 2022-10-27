@@ -27,11 +27,11 @@ class WpApi
     public function latest($count = 4, $page = 1, $orderBy = null)
     {
         $query = ['query' => ['_embed' => true, 'page' => $page, 'per_page' => $count]];
-        
+
         if (isset($orderBy)) {
             $query['query']['orderby'] = $orderBy;
         }
-        
+
         $response = $this->client->get($this->endpoint.'posts', $query);
 
         return json_decode((string) $response->getBody());
