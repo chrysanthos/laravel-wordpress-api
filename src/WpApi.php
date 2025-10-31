@@ -10,7 +10,7 @@ class WpApi
 
     protected $endpoint;
 
-    public function __construct($endpoint, Client $client = null)
+    public function __construct($endpoint, ?Client $client = null)
     {
         $this->endpoint = $endpoint;
         $this->client = $client ?: new Client();
